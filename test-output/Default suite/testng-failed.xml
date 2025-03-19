@@ -5,8 +5,7 @@
     <classes>
       <class name="stringmanipulations.StringOperations">
         <methods>
-          <include name="reverseTheWords"/>
-          <include name="beforeTest"/>
+          <include name="s"/>
         </methods>
       </class> <!-- stringmanipulations.StringOperations -->
     </classes>

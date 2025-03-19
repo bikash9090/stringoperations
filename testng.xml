@@ -11,7 +11,8 @@
 			<class name="stringmanipulations.StringOperations" />
 			<class name="stringmanipulations.DemoString"></class>
 		</classes>
-	</test> <!--
+	</test> 
+	<!--
 	Test -->
 </suite> <!--
 Suite -->

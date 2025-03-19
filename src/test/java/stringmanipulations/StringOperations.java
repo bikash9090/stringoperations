@@ -7,16 +7,10 @@ import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 
-import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class StringOperations {
-
-	@BeforeTest
-	public void beforeTest() {
-		System.out.println("Before test of class StringOperations.");
-	}
 
 	@Test
 	public void findDuplicateElements() {
@@ -65,7 +59,7 @@ public class StringOperations {
 			System.out.print(new StringBuilder(word).reverse().toString() + " ");
 		}
 		System.out.println();
-		//Assert.fail();
+		// Assert.fail();
 	}
 
 	@Test
@@ -159,6 +153,26 @@ public class StringOperations {
 		System.out.println("Total vowels : " + vowelsCount);
 		System.out.println("Total consonents : " + consonent);
 
+	}
+
+	@Test(description = "trim() : removes the leading and trailing spaces")
+	public void trimString() {
+		String sentence = "           I am a very happy and care free soul       ";
+		System.out.println(sentence.trim());
+	}
+
+	@Test
+	public void subString() {
+		String sentence = "I am a very wealthy soul";
+
+		System.out.println(sentence.substring(1,8));
+		System.out.println(sentence.substring(5));
+	}
+	
+	@Test
+	public void s() {
+		String sentence = "I am a pure soul";
+		System.out.println(sentence.indexOf("a"));
 	}
 
 }
