@@ -3,7 +3,7 @@
 <suite name="Suite">
 
 	<listeners>
-	<listener class-name="com.bksoft.listeners.EventListeners"></listener>
+	<listener class-name=""></listener>
 	
 	</listeners>
 	<test thread-count="5" name="Test" parallel="true">
