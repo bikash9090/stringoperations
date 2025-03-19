@@ -9,7 +9,6 @@
 	<test thread-count="5" name="Test" parallel="true">
 		<classes>
 			<class name="stringmanipulations.StringOperations" />
-			<class name="stringmanipulations.DemoString"></class>
 		</classes>
 	</test> 
 	<!--
