@@ -177,7 +177,7 @@ public class StringOperations {
 	
 	@Test
 	public void repeatCharacter() {
-		
+		String name = "Bikash kumar";
 	}
 
 }
