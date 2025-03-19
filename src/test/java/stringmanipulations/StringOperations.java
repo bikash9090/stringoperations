@@ -178,6 +178,7 @@ public class StringOperations {
 	@Test
 	public void repeatCharacter() {
 		String name = "Bikash kumar";
+		char[] charArray = name.toCharArray();
 	}
 
 }
