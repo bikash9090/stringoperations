@@ -179,6 +179,9 @@ public class StringOperations {
 	public void repeatCharacter() {
 		String name = "Bikash kumar";
 		char[] charArray = name.toCharArray();
+		for(char c:charArray) {
+			
+		}
 	}
 
 }
