@@ -170,9 +170,14 @@ public class StringOperations {
 	}
 	
 	@Test
-	public void s() {
+	public void indexOfTest() {
 		String sentence = "I am a pure soul";
 		System.out.println(sentence.indexOf("a"));
+	}
+	
+	@Test
+	public void repeatCharacter() {
+		
 	}
 
 }
